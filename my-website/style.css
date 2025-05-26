@@ -1,24 +1,32 @@
 .container{
+    height: 100%;
     display: grid;
     grid-template-areas:
     "header header header header"
     "sidebar main main main"
     "footer footer footer footer"
     ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 4fr;
 }
 
 .header{
     grid-area: header;
+    background-color: rgb(48, 101, 101);
 }
 
 .sidebar{
+    display: flex;
     grid-area: sidebar;
+    background-color: cornflowerblue;
 }
 
 .main{
     grid-area: main;
+    background-color: midnightblue;
 }
 
 .footer{
     grid-area: footer;
+    background-color: brown;
 }
