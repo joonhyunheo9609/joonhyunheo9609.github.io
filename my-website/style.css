@@ -11,8 +11,7 @@
     "header header"
     "fashion vinyl"
     "picture trip"
-    "footer footer"
-    ;
+    "footer footer";
     grid-template-rows: 1fr 5fr 5fr 1fr;
     grid-template-columns: 1fr 1fr;
 }
@@ -21,34 +20,34 @@
     grid-area: header;
     text-align: center;
     font-family: cursive;    
-    background-color: #ffffff;
+    background-color: white;
+}
+
+.section{
+    display: flex;
+    font-family: copperplate;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
 }
 
 .fashion{
     grid-area: fashion;
-    font-family: copperplate;
-    font-weight: bolder;
     background-color: #99BBAD;
 }
 
 .vinyl{
     grid-area: vinyl;
-    font-family: copperplate;
-    font-weight: bolder;
     background-color: #EBD8B7;
 }
 
 .picture{
     grid-area: picture;
-    font-family: copperplate;
-    font-weight: bolder;
     background-color: #C6A9A3;
 }
 
 .trip{
     grid-area: trip;
-    font-family: copperplate;
-    font-weight: bolder;
     background-color: #9A8194;
 }
 
@@ -56,5 +55,5 @@
     grid-area: footer;
     text-align: center;
     font-family: cursive;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
 }
