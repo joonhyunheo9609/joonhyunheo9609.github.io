@@ -9,7 +9,7 @@
     display: grid;
     grid-template-areas:
     "header header"
-    "portfolio vinyl"
+    "fashion vinyl"
     "picture trip"
     "footer footer"
     ;
@@ -24,8 +24,8 @@
     background-color: #ffffff;
 }
 
-.portfolio{
-    grid-area: portfolio;
+.fashion{
+    grid-area: fashion;
     font-family: copperplate;
     font-weight: bolder;
     background-color: #99BBAD;
