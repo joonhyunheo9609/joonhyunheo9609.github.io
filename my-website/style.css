@@ -3,6 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* header */
+.header{
+    grid-area: header;
+    text-align: center;
+    font-family: cursive;
+    background-color: white;
+}
+
+/* container */
 .container{
     height: 100vh;
     width: 100vw;
@@ -17,13 +26,6 @@
 
     /* to block overflow when container box get bigger by hover. */
     overflow: hidden;
-}
-
-.header{
-    grid-area: header;
-    text-align: center;
-    font-family: cursive;    
-    background-color: white;
 }
 
 .section{
@@ -66,9 +68,19 @@
     background-color: #9A8194;
 }
 
+/* footer */
 .footer{
     grid-area: footer;
-    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     font-family: cursive;
     background-color: white;
+    padding-right: 20px;
+}
+
+.contact-info{
+    display: flex;
+    gap: 30px;
+    align-items: end;
 }
