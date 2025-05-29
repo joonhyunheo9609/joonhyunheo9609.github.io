@@ -14,6 +14,9 @@
     "footer footer";
     grid-template-rows: 1fr 5fr 5fr 1fr;
     grid-template-columns: 1fr 1fr;
+
+    /* to block overflow when container box get bigger by hover. */
+    overflow: hidden;
 }
 
 .header{
