@@ -3,14 +3,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     sections.forEach(function(section) {
         section.addEventListener('click', function() {
-            if (section.classList.contains('fashion')) {
+            if (section.classList.contains('portfolio')) {
+                window.location.href = 'portfolio.html';
+            }
+            else if (section.classList.contains('fashion')) {
                 window.location.href = 'fashion.html';
             }
-            else if (section.classList.contains('picture')) {
-                window.location.href = 'picture.html';
-            }
-            else if (section.classList.contains('vinyl')) {
-                window.location.href = 'vinyl.html';
+            else if (section.classList.contains('music')) {
+                window.location.href = 'music.html';
             }
             else if (section.classList.contains('trip')) {
                 window.location.href = 'trip.html';

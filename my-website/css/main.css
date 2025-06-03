@@ -18,8 +18,8 @@
     display: grid;
     grid-template-areas:
     "header header"
-    "fashion vinyl"
-    "picture trip"
+    "portfolio fashion"
+    "music trip"
     "footer footer";
     grid-template-rows: 1fr 5fr 5fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -48,18 +48,18 @@
     transform: scale(0.97);
 }
 
-.fashion{
-    grid-area: fashion;
+.portfolio{
+    grid-area: portfolio;
     background-color: #99BBAD;
 }
 
-.vinyl{
-    grid-area: vinyl;
+.fashion{
+    grid-area: fashion;
     background-color: #EBD8B7;
 }
 
-.picture{
-    grid-area: picture;
+.music{
+    grid-area: music;
     background-color: #C6A9A3;
 }
 
