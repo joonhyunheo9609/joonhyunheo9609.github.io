@@ -27,13 +27,13 @@ const footerHTML = `
 
 document.addEventListener('DOMContentLoaded', function() {
     // header
-    const headerContainer = document.getElementById('header');
+    const headerContainer = document.querySelector('header');
     if (headerContainer) {
         headerContainer.innerHTML = headerHTML;
     }
 
     // footer
-    const footerContainer = document.getElementById('footer');
+    const footerContainer = document.querySelector('footer');
     if(footerContainer) {
         footerContainer.innerHTML = footerHTML;
     }
