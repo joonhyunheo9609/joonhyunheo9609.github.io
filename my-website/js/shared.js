@@ -35,6 +35,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // footer
     const footerContainer = document.getElementById('footer');
     if(footerContainer) {
-        footContainer.innerHTML = footerHTML;
+        footerContainer.innerHTML = footerHTML;
     }
 });
