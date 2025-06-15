@@ -1,20 +1,3 @@
-/* container */
-.container{
-    height: 100vh;
-    width: 100vw;
-    display: grid;
-    grid-template-areas:
-    "header header"
-    "portfolio fashion"
-    "music trip"
-    "footer footer";
-    grid-template-rows: auto 5fr 5fr auto;
-    grid-template-columns: 1fr 1fr;
-
-    /* to block overflow when container box get bigger by hover. */
-    overflow: hidden;
-}
-
 .section{
     display: flex;
     color: #333333;
@@ -35,24 +18,4 @@
 
 .section:active {
     transform: scale(0.97);
-}
-
-.portfolio{
-    grid-area: portfolio;
-    background-color: #99BBAD;
-}
-
-.fashion{
-    grid-area: fashion;
-    background-color: #EBD8B7;
-}
-
-.music{
-    grid-area: music;
-    background-color: #C6A9A3;
-}
-
-.trip{
-    grid-area: trip;
-    background-color: #9A8194;
 }

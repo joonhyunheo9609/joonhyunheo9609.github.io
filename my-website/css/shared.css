@@ -4,8 +4,31 @@
     box-sizing: border-box;
 }
 
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas:
+    "header"
+    "content"
+    "footer";
+    grid-template-rows: 1fr 10fr 1fr;
+}
+
+.container.main-layout {
+    grid-template-areas:
+    "header header"
+    "portfolio fashion"
+    "music trip"
+    "footer footer";
+    grid-template-rows: 1fr 5fr 5fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+
 /* header */
 .header{
+    height: 100px;
     grid-area: header;
     text-align: center;
     font-family: cursive;
@@ -14,6 +37,7 @@
 
 /* footer */
 .footer{
+    height: 100px;
     grid-area: footer;
     display: flex;
     justify-content: flex-end;
@@ -27,4 +51,24 @@
     display: flex;
     gap: 30px;
     align-items: end;
+}
+
+.portfolio{
+    grid-area: portfolio;
+    background-color: #99BBAD;
+}
+
+.fashion{
+    grid-area: fashion;
+    background-color: #EBD8B7;
+}
+
+.music{
+    grid-area: music;
+    background-color: #C6A9A3;
+}
+
+.trip{
+    grid-area: trip;
+    background-color: #9A8194;
 }
