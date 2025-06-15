@@ -20,5 +20,41 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+const headerHTML = `
+    <div class="header">
+        <h1>Joonhyun Heo</h1>
+    </div>
+`;
 
+const footerHTML = `
+    <div class="footer">
+        <div class="contact-info">
+            <a href="mailto:joonhyunheo9609@gmail.com" class="contact-link email">
+                joonhyunheo9609@gmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/joonhyun-heo-93b848330/" target="_blank" class="contact-link linkedin">
+                Linkedin
+            </a>
+            <a href="https://github.com/joonhyunheo9609/" target="_blank" class="contact-link github">
+                Github
+            </a>
+            <a href="https://instagram.com/hon_bul" target="_blank" class="contact-link instagram">
+                Instagram
+            </a>
+        </div>
+    </div>
+`;
 
+document.addEventListener('DOMContentLoaded', function() {
+    // header
+    const headerContainer = document.getElementsByClassName('header')[0];
+    if (headerContainer) {
+        headerContainer.innerHTML = headerHTML;
+    }
+
+    // footer
+    const footerContainer = document.getElementsByClassName('footer')[0];
+    if(footerContainer) {
+        footerContainer.innerHTML = footerHTML;
+    }
+});
