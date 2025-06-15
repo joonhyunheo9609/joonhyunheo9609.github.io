@@ -1,0 +1,24 @@
+/* header */
+.header{
+    grid-area: header;
+    text-align: center;
+    font-family: cursive;
+    background-color: white;
+}
+
+/* footer */
+.footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: cursive;
+    background-color: white;
+    padding-right: 20px;
+}
+
+.contact-info{
+    display: flex;
+    gap: 30px;
+    align-items: end;
+}
