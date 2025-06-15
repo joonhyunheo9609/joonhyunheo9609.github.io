@@ -1,4 +1,4 @@
-// this is for shared header and footer
+// this is for shared shared css
 
 const headerHTML = `
     <div class="header">
