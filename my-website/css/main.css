@@ -8,7 +8,7 @@
     "portfolio fashion"
     "music trip"
     "footer footer";
-    grid-template-rows: 1fr 5fr 5fr 1fr;
+    grid-template-rows: auto 5fr 5fr auto;
     grid-template-columns: 1fr 1fr;
 
     /* to block overflow when container box get bigger by hover. */

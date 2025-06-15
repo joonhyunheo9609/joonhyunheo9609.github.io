@@ -6,7 +6,7 @@
     "header"
     "content"
     "footer";
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
     background-color: #9A8194;
 
 }
