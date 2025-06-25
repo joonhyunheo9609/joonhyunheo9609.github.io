@@ -4,16 +4,16 @@ document.addEventListener('DOMContentLoaded', function() {
     sections.forEach(function(section) {
         section.addEventListener('click', function() {
             if (section.classList.contains('portfolio')) {
-                window.location.href = 'pages/portfolio.html';
+                window.location.href = 'pages/portfolio/portfolio.html';
             }
             else if (section.classList.contains('fashion')) {
-                window.location.href = 'pages/fashion.html';
+                window.location.href = 'pages/fashion/fashion.html';
             }
             else if (section.classList.contains('music')) {
-                window.location.href = 'pages/music.html';
+                window.location.href = 'pages/music/music.html';
             }
             else if (section.classList.contains('trip')) {
-                window.location.href = 'pages/trip.html';
+                window.location.href = 'pages/trip/trip.html';
             }
         });
         section.style.cursor = 'pointer';
