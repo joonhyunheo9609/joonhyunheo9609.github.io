@@ -1,4 +1,24 @@
+
+.portfolio-bg{
+    grid-template-areas: 
+    "profile-img intro-section"
+    "experience-section"
+    "skill-section";
+}
 .profile-img{
-    width: 600px;
-    height: 900px;
+    display: flex;
+    width: 574px;
+    height: 640px;
+}
+
+.intro-section{
+    display: flex;
+}
+
+.experience-section{
+    display: flex;
+}
+
+.skill-section{
+    display: flex;
 }
