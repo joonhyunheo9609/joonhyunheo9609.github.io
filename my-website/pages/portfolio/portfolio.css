@@ -1,5 +1,4 @@
-
-.portfolio-bg{
+.portfolio-bg {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -10,57 +9,141 @@
 .profile-container {
     display: flex;
     align-items: flex-start;
-    gap: 30px
+    gap: 30px;
 }
 
-.profile-img{
-    width: 574px;
-    height: 640px;
+.profile-img {
+    width: 40%;
+    height: 100%;
     object-fit: cover;
     flex-shrink: 0;
-    border-radius: 15%;
-
+    border-radius: 25px;
 }
 
-.intro-section{
+.profile-right {
     display: flex;
     flex: 1;
     flex-direction: column;
+    gap: 30px;
 }
 
-.intro-section p{
+/* About me section */
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.intro-section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.intro-section p {
     padding: 30px;
     background-color: rgb(41, 171, 127);
     border-radius: 20px;
+    margin: 0;
+    color: white;
+    line-height: 1.7;
 }
 
-.intro-section h2{
+/* Skills section*/
+.skill-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill-section h2 {
     font-size: 28px;
-    margin-bottom: 14px;
+    margin-bottom: 10px;
+    color: white;
 }
 
-.experience-section{
+.skill-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.skill-category {
+    background-color: rgb(41, 171, 127);
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.skill-category h4 {
+    margin: 0 0 15px 0;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tag {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+/* Experience section */
+.experience-section {
     display: flex;
     width: 70%;
     flex-direction: column;
     gap: 20px;
 }
 
-.experience-section h3{
+.experience-section h3 {
     font-size: 28px;
+    color: white;
+    margin-bottom: 10px;
 }
 
-.exp-item{
+.exp-item {
     background-color: rgb(41, 171, 127);
     border-radius: 20px;
     padding: 30px;
 }
 
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
 .exp-header h4 {
     font-size: 18px;
+    color: white;
+    margin: 0;
+    font-weight: bold;
 }
 
 .period {
     font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    font-style: italic;
+}
 
+.exp-item p {
+    margin: 0;
+    color: white;
+    line-height: 1.6;
 }
