@@ -1,24 +1,31 @@
 
 .portfolio-bg{
-    grid-template-areas: 
-    "profile-img intro-section"
-    "experience-section"
-    "skill-section";
-}
-.profile-img{
     display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px
+}
+
+.profile-img{
     width: 574px;
     height: 640px;
+    object-fit: cover;
+    flex-shrink: 0;
 }
 
 .intro-section{
+    display: 1;
     display: flex;
+    gap: 30px;
+    flex-direction: column;
 }
 
 .experience-section{
     display: flex;
-}
-
-.skill-section{
-    display: flex;
+    flex-direction: column;
 }
