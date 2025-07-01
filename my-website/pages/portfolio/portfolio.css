@@ -18,6 +18,8 @@
     height: 640px;
     object-fit: cover;
     flex-shrink: 0;
+    border-radius: 15%;
+
 }
 
 .intro-section{
@@ -34,8 +36,12 @@
 
 .experience-section{
     display: flex;
+    width: 70%;
     flex-direction: column;
     gap: 20px;
+    background-color: aquamarine;
+    border-radius: 10%
+    margin: 0%;
 }
 
 .experience-section h3{
