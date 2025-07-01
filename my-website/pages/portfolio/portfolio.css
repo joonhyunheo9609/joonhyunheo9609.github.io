@@ -26,7 +26,12 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    gap: 20px;
+}
+
+.intro-section p{
+    padding: 30px;
+    background-color: rgb(41, 171, 127);
+    border-radius: 20px;
 }
 
 .intro-section h2{
@@ -39,12 +44,16 @@
     width: 70%;
     flex-direction: column;
     gap: 20px;
-    background-color: aquamarine;
-    border-radius: 10%
 }
 
 .experience-section h3{
     font-size: 28px;
+}
+
+.exp-item{
+    background-color: rgb(41, 171, 127);
+    border-radius: 20px;
+    padding: 30px;
 }
 
 .exp-header h4 {
@@ -53,8 +62,5 @@
 
 .period {
     font-size: 14px;
-}
 
-.experience-section p{
-    gap: 15px;
 }
