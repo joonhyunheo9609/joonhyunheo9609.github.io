@@ -19,6 +19,7 @@
 }
 
 .intro-section{
+    font-size: large;
     display: flex;
     flex: 1;
     flex-direction: column;
