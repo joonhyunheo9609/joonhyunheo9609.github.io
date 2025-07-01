@@ -19,10 +19,10 @@
 }
 
 .intro-section{
-    display: 1;
     display: flex;
-    gap: 30px;
+    flex: 1;
     flex-direction: column;
+    gap: 20px;
 }
 
 .experience-section{
