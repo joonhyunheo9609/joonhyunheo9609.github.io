@@ -1,3 +1,5 @@
+const HOME_PATH = `${window.location.protocol}//${window.location.host}/my-website/index.html`;
+
 document.addEventListener('DOMContentLoaded', function() {
     const sections = document.querySelectorAll('.section');
 
@@ -23,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
 const headerHTML = `
     <div class="header">
         <h1>Joonhyun Heo</h1>
+        <a href="${HOME_PATH}" class="home-btn">Home</a>
     </div>
 `;
 
