@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+    font-size: large;
+    line-height: 1.6;
 }
 
 .profile-container {
@@ -19,14 +21,35 @@
 }
 
 .intro-section{
-    font-size: large;
     display: flex;
     flex: 1;
     flex-direction: column;
     gap: 20px;
 }
 
+.intro-section h2{
+    font-size: 28px;
+    margin-bottom: 14px;
+}
+
 .experience-section{
     display: flex;
     flex-direction: column;
+    gap: 20px;
+}
+
+.experience-section h3{
+    font-size: 28px;
+}
+
+.exp-header h4 {
+    font-size: 18px;
+}
+
+.period {
+    font-size: 14px;
+}
+
+.experience-section p{
+    gap: 15px;
 }
